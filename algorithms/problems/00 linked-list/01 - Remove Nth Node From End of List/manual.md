@@ -6,21 +6,21 @@
 
 ```go
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
-	fast := head
-	for ; n > 0; n-- {
-		fast = fast.Next
-	}
-	
-	dummyNode := ListNode{Next: head}
-	prev := &dummyNode
-	
-	for fast != nil {
-		prev, head, fast = head, head.Next, fast.Next
-	}
-	
-	prev.Next = head.Next
-	
-	return dummyNode.Next
+    fast := head
+    for ; n > 0; n-- {
+        fast = fast.Next
+    }
+    
+    dummyNode := ListNode{Next: head}
+    prev := &dummyNode
+    
+    for fast != nil {
+        prev, head, fast = head, head.Next, fast.Next
+    }
+    
+    prev.Next = head.Next
+    
+    return dummyNode.Next
 }
 ```
 
