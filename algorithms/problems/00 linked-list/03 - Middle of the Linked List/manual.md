@@ -2,7 +2,7 @@
 
 [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
-## Код
+## Решение 1 - Time: O(n), Memory: O(1)
 
 ```go
 func middleNode(head *ListNode) *ListNode {

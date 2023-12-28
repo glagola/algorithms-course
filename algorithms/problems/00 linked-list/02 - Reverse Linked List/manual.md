@@ -2,7 +2,7 @@
 
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
-## Код
+## Решение 1 - Time: O(n), Memory: O(1)
 
 ```go
 func reverseList(head *ListNode) (prev *ListNode) {

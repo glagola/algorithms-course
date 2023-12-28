@@ -2,7 +2,7 @@
 
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
-## Код
+## Решение 1 - Time: O(n), Memory: O(1)
 
 ```go
 func removeNthFromEnd(head *ListNode, n int) *ListNode {

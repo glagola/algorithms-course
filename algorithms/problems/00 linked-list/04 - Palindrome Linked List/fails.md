@@ -2,7 +2,7 @@
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
-## Попытка
+## Попытка 1
 2023-12-29 00:35
 
 ```go

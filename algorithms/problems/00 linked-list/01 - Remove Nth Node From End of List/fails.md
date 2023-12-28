@@ -2,7 +2,7 @@
 
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
-## Попытка
+## Попытка 1
 2023-12-28 22:56
 
 ```go

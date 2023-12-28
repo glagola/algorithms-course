@@ -2,7 +2,7 @@
 
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
-## Код
+## Решение 1 - Time: O(n), Memory: O(1)
 
 ```go
 func isPalindrome(head *ListNode) bool {
@@ -63,7 +63,7 @@ func compare(l1, l2 *ListNode) bool {
 
 Сложность каждого из использованных алгоритмов:
 * `preMiddle(...)` - `O(n)`
-* `compare(...)` - `O(n)`, но так как подаем туда половинки то `O(n/2)`
+* `compare(...)` - `O(n)`, но так как подаем туда половинки - `O(n/2)`
 * `reverse(...)` - `O(n)`
 
 Таким образом худшая оценка -  `O(n)`.
