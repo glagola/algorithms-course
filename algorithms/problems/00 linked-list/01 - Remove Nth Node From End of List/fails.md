@@ -28,4 +28,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 ### Проблемы с синтаксисом
 >`Line 8: Char 14: undefined: prev (solution.go)`
 
-В результате рефакторинга забыл поправить ссылку на DummyNode.
+В результате рефакторинга забыл поправить ссылку на `DummyNode`.
