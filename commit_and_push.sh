@@ -15,6 +15,6 @@ else
   git commit -m "Auto-commit at ${current_datetime}"
 
   # Push changes to the remote repository
-  git push origin master  # Change 'master' to your branch name if different
+  git push origin main  # Change 'main' to your branch name if different
 fi
 
