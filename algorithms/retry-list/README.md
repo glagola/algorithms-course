@@ -8,5 +8,7 @@
 
 ## 1 Попытка (спустя 1-2 дня)
 
+* [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) - последний раз решал 2023-12-30
 
 ## 2 Попытка (спустя 1-2 недели)
+
