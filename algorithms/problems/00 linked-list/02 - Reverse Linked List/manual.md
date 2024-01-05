@@ -2,7 +2,7 @@
 
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
-## Решение 1 - Time: O(n), Memory: O(1)
+## Решение 1 - Time: $O(n)$, Memory: $O(1)$
 
 ```go
 func reverseList(head *ListNode) (prev *ListNode) {
@@ -15,13 +15,13 @@ func reverseList(head *ListNode) (prev *ListNode) {
 
 ### Оценка 
 
-#### По времени: `O(n)`
+#### По времени: $O(n)$
 Где:
 * `n` - длина списка `head`
 
 Для разворачивания списка нужно пройти по всем элементам списка.
 
-#### По памяти: `O(1)`
+#### По памяти: $O(1)$
 Затраты по памяти не зависят от входных данных. 
 
 ### Описание решения

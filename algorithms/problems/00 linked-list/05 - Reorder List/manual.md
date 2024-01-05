@@ -2,7 +2,7 @@
 
 [143. Reorder List](https://leetcode.com/problems/reorder-list/)
 
-## Решение 1 - Time: O(n), Memory: O(1)
+## Решение 1 - Time: $O(n)$, Memory: $O(1)$
 
 ```go
 func reorderList(head *ListNode) {
@@ -60,16 +60,16 @@ func merge(l1, l2 *ListNode) *ListNode {
 
 ### Оценка 
 
-#### По времени: `O(n)`
+#### По времени: $O(n)$
 Где:
 * `n` - длина списка `head`
 
 Сложность каждого из использованных алгоритмов:
-* `preMiddle(...)` - `O(n)`
-* `reverse(...)` - `O(n)`
-* `merge(...)` - `O(n)`
+* `preMiddle(...)` - $O(n)$
+* `reverse(...)` - $O(n)$
+* `merge(...)` - $O(n)$
 
-#### По памяти: `O(1)`
+#### По памяти: $O(1)$
 Затраты по памяти не зависят от входных данных. 
 
 ### Описание решения
