@@ -25,8 +25,9 @@ func nextLargerNodes(head *ListNode) (res []int) {
             continue
         }
         if stackTop + 1 != len(res) {
-            for ; stackTop >= 0 && res[stack[stackTop]] < head.Val; stackTop-- {
+            for stackTop >= 0 && res[stack[stackTop]] < head.Val {
                 res[stack[stackTop]] = head.Val
+                stackTop--
             }
         }
 
