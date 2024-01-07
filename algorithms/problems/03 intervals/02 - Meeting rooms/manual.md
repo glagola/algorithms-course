@@ -54,16 +54,16 @@ func solve(A [][]int)  (res int) {
     
     sort.Sort(ByAbsValue(points))
     
-    curr := 0
+    roomsTaken := 0
     for _, v := range points {
         if v < 0 {
-            curr--
+            roomsTaken--
         } else {
-            curr++
+            roomsTaken++
         }
         
-        if res < curr {
-            res = curr
+        if res < roomsTaken {
+            res = roomsTaken
         }
     }
     
