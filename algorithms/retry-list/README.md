@@ -13,4 +13,3 @@
 * [1024. Video Stitching](https://leetcode.com/problems/video-stitching/) - последний раз решал 2024-01-10
 
 ## 2 Попытка (спустя 1-2 недели)
-
