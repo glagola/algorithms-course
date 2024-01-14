@@ -1,17 +1,17 @@
 # Задача
 
-[144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 ## Решение 1 - Time: $O(n)$, Memory: $O(n)$
 
 ```go
-func preorderTraversal(root *TreeNode) (res []int) {
+func inorderTraversal(root *TreeNode) (res []int) {
     var f func (*TreeNode)
 
     f = func (node *TreeNode) {
         if node != nil {
-            res = append(res, node.Val)
             f(node.Left)
+            res = append(res, node.Val)
             f(node.Right)
         }
     }
@@ -36,7 +36,7 @@ func preorderTraversal(root *TreeNode) (res []int) {
 
 ### Описание решения
 
-Порядок обработки вершин для `pre-order`:
-1. текущая вершина
+Порядок обработки вершин для `in-order`:
 1. левое поддерево
+1. текущая вершина
 1. правое поддерево
