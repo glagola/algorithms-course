@@ -1,6 +1,6 @@
 # Задача
 
-[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+[145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ## Решение 1 - Time: $O(n)$, Memory: $O(n)$
 
@@ -11,8 +11,8 @@ func inorderTraversal(root *TreeNode) (res []int) {
     f = func (node *TreeNode) {
         if node != nil {
             f(node.Left)
-            res = append(res, node.Val)
             f(node.Right)
+            res = append(res, node.Val)
         }
     }
 
@@ -36,7 +36,7 @@ func inorderTraversal(root *TreeNode) (res []int) {
 
 ### Описание решения
 
-Порядок обработки для `in-order`:
+Порядок обработки для `post-order`:
 1. левое поддерево
-1. **ТЕКУЩИЙ корень**
 1. правое поддерево
+1. **ТЕКУЩИЙ корень**
